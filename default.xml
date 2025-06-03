@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="lineage"
+          fetch="https://github.com/LineageOS/" />
+
+  <remote name="fodon"
+          fetch="https://github.com/Fodon-cf/" />
+
+  <default remote="lineage"
+           revision="lineage-20.0"
+           sync-j="4" />
+
+  <project name="LineageOS/android_build" path="build" />
+  <project name="LineageOS/android_frameworks_base" path="frameworks/base" />
+  <project name="LineageOS/android_system_core" path="system/core" />
+
+  <project name="Fodon-android-13" path="fodon" remote="fodon" revision="main" />
+</manifest>
